@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Birthday</title>
+</head>
+<body>
+     <div class="custom-box">
+         <h1>HAPPY BORNDAY!!</h1>
+         
+      </div>
+</body>
+</html>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+    swal({
+        closeOnClickOutside: false,
+  title: "HAPPY BIRTHDAY, RAYMOND",
+  button: "Next"
+})
+.then((value) => {
+    swal({
+        closeOnClickOutside: false,
+       text: "Today is a special day in your life. As you start a new year, may your days ahead be brighter. Whatever plans you are making, whatever dream you are dreaming, may they come to pass. May your birthday be filled with happiness and the warmth of sunshine. Have a lovely day and may the year ahead be filled with love, joy and happiness. Happy Birthday.",
+        button: "Exit",
+        
+    });
+});
+</script>
